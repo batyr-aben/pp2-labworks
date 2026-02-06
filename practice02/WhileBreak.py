@@ -26,3 +26,11 @@ while True:
     res = input("Enter the number 5: ")
     if res == 5:
         break
+
+a = 4
+while a <= 4:
+  if a == 4: 
+    break
+  else:
+    print(i)
+  i += 1
