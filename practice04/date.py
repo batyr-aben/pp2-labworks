@@ -6,7 +6,7 @@ print(today)
 
 from datetime import datetime
 
-birth_year = int(input("Введите год рождения: "))
+birth_year = int(input("Enter birthdate: "))
 current_year = datetime.now().year
 
 age = current_year - birth_year
