@@ -25,7 +25,7 @@ BEGIN
         IF p_phone ~ '^\d+$' THEN
             CALL insert_or_update_user(p_name, p_phone);
         ELSE
-            bad_data := bad_data || u;
+            bad_data := bad_data ||  u;
         END IF;
     END LOOP;
     
